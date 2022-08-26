@@ -16,6 +16,10 @@
     "deploy-comms": "node js/deploy-commands.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrembish/ExampleBotTSandJS.git"
+  },
   "author": "William Rembish",
   "license": "ISC",
   "dependencies": {
