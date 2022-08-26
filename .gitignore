@@ -1,0 +1,13 @@
+# Ignore dot files except .gitignore
+**/.*
+!.gitignore
+
+# Ignore ts dist folder
+**/dist
+
+# Ignore node files
+**/node_modules
+**/package-lock.json
+
+# Ignore testing files
+**/*test*

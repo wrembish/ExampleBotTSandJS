@@ -1,0 +1,32 @@
+{
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "node-modules",
+        "ts/dist",
+        "js"
+    ],
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "rootDir": "./ts/src/",
+        "outDir": "./ts/dist/",
+        "moduleResolution": "node",
+        "baseUrl": "./ts/",
+        "strict": true,
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "typeRoots": [
+            "./node-modules/discord.js/typings",
+            "./node-modules/@types"
+        ]
+    }
+}
